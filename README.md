@@ -11,9 +11,8 @@ install:
 
 run test:
 
-1.for open cypress use script - npm run test
-
-2.for run headless test use script  -npm runOnChrome
+1. for open cypress use script - npm run test
+2. for run headless test use script  -npm runOnChrome
 
 
 Generate report:
