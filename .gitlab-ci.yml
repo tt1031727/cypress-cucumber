@@ -8,7 +8,6 @@ cache:
     - .npm/
 
 test:
-  image: cypress/browsers:node12.14.1-chrome85-ff81
   stage: test
   script:
     # install dependencies
