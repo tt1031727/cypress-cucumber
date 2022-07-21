@@ -9,10 +9,10 @@
     "uri": "test.feature",
     "elements": [
       {
-        "id": "sign-up-page;close-koocie-window",
+        "id": "sign-up-page;close-cookie-window",
         "keyword": "Scenario",
         "line": 5,
-        "name": "Close koocie window",
+        "name": "Close cookie window",
         "tags": [],
         "type": "scenario",
         "steps": [
@@ -23,7 +23,7 @@
             "name": "click close button",
             "result": {
               "status": "passed",
-              "duration": 12355000000
+              "duration": 20228000000
             }
           }
         ]
@@ -43,7 +43,7 @@
             "name": "Enter \"Test Test\" in the \"Full name\" field",
             "result": {
               "status": "passed",
-              "duration": 8455000000
+              "duration": 23574000000
             }
           },
           {
@@ -53,7 +53,7 @@
             "name": "Enter \"Test123test@\" in the \"password\" field",
             "result": {
               "status": "passed",
-              "duration": 950000000
+              "duration": 904000000
             }
           },
           {
@@ -63,7 +63,7 @@
             "name": "Click checkbox \"i agree\"",
             "result": {
               "status": "passed",
-              "duration": 149000000
+              "duration": 204000000
             }
           },
           {
@@ -73,7 +73,7 @@
             "name": "Click \"Create Account\" button",
             "result": {
               "status": "passed",
-              "duration": 263000000
+              "duration": 346000000
             }
           },
           {
@@ -83,7 +83,7 @@
             "name": "The hint email \"This field is required.\" appeared",
             "result": {
               "status": "passed",
-              "duration": 72000000
+              "duration": 104000000
             }
           }
         ]
@@ -103,7 +103,7 @@
             "name": "Enter \"test1234@gmail.com\" in the \"email\" field",
             "result": {
               "status": "passed",
-              "duration": 7650000000
+              "duration": 24217000000
             }
           },
           {
@@ -113,7 +113,7 @@
             "name": "Enter \"Test123test@\" in the \"password\" field",
             "result": {
               "status": "passed",
-              "duration": 602000000
+              "duration": 1438000000
             }
           },
           {
@@ -123,7 +123,7 @@
             "name": "Click checkbox \"i agree\"",
             "result": {
               "status": "passed",
-              "duration": 144000000
+              "duration": 302000000
             }
           },
           {
@@ -133,7 +133,7 @@
             "name": "Click \"Create Account\" button",
             "result": {
               "status": "passed",
-              "duration": 289000000
+              "duration": 419000000
             }
           },
           {
@@ -143,7 +143,7 @@
             "name": "The hint full name \"This field is required.\" appeared",
             "result": {
               "status": "passed",
-              "duration": 102000000
+              "duration": 112000000
             }
           }
         ]
@@ -163,7 +163,7 @@
             "name": "Enter \"test1234@gmail.com\" in the \"email\" field",
             "result": {
               "status": "passed",
-              "duration": 12299000000
+              "duration": 13691000000
             }
           },
           {
@@ -173,7 +173,7 @@
             "name": "Enter \"Test Test\" in the \"Full name\" field",
             "result": {
               "status": "passed",
-              "duration": 655000000
+              "duration": 669000000
             }
           },
           {
@@ -183,7 +183,7 @@
             "name": "Enter \"Test1test@\" in the \"password\" field",
             "result": {
               "status": "passed",
-              "duration": 659000000
+              "duration": 831000000
             }
           },
           {
@@ -193,7 +193,7 @@
             "name": "Click checkbox \"i agree\"",
             "result": {
               "status": "passed",
-              "duration": 349000000
+              "duration": 239000000
             }
           },
           {
@@ -203,7 +203,7 @@
             "name": "Click \"Create Account\" button",
             "result": {
               "status": "passed",
-              "duration": 258000000
+              "duration": 328000000
             }
           },
           {
@@ -213,7 +213,7 @@
             "name": "Element long class - sc-3f0fa74c-5 dlOEFS",
             "result": {
               "status": "passed",
-              "duration": 68000000
+              "duration": 88000000
             }
           }
         ]
@@ -233,7 +233,7 @@
             "name": "Enter \"test1234@gmail.com\" in the \"email\" field",
             "result": {
               "status": "passed",
-              "duration": 10366000000
+              "duration": 12354000000
             }
           },
           {
@@ -243,7 +243,7 @@
             "name": "Enter \"Test Test\" in the \"Full name\" field",
             "result": {
               "status": "passed",
-              "duration": 827000000
+              "duration": 703000000
             }
           },
           {
@@ -253,7 +253,7 @@
             "name": "Enter \"Testtesttest@\" in the \"password\" field",
             "result": {
               "status": "passed",
-              "duration": 1421000000
+              "duration": 1311000000
             }
           },
           {
@@ -263,7 +263,7 @@
             "name": "Click checkbox \"i agree\"",
             "result": {
               "status": "passed",
-              "duration": 326000000
+              "duration": 174000000
             }
           },
           {
@@ -273,7 +273,7 @@
             "name": "Click \"Create Account\" button",
             "result": {
               "status": "passed",
-              "duration": 283000000
+              "duration": 258000000
             }
           },
           {
@@ -283,7 +283,7 @@
             "name": "Element numbers class - sc-3f0fa74c-5 dlOEFS",
             "result": {
               "status": "passed",
-              "duration": 50000000
+              "duration": 45000000
             }
           }
         ]
@@ -303,7 +303,7 @@
             "name": "Enter \"test1234@gmail.com\" in the \"email\" field",
             "result": {
               "status": "passed",
-              "duration": 10649000000
+              "duration": 10879000000
             }
           },
           {
@@ -313,7 +313,7 @@
             "name": "Enter \"Test Test\" in the \"Full name\" field",
             "result": {
               "status": "passed",
-              "duration": 701000000
+              "duration": 550000000
             }
           },
           {
@@ -323,7 +323,7 @@
             "name": "Enter \"Testtesttest1\" in the \"password\" field",
             "result": {
               "status": "passed",
-              "duration": 730000000
+              "duration": 791000000
             }
           },
           {
@@ -333,7 +333,7 @@
             "name": "Click checkbox \"i agree\"",
             "result": {
               "status": "passed",
-              "duration": 163000000
+              "duration": 159000000
             }
           },
           {
@@ -343,7 +343,7 @@
             "name": "Click \"Create Account\" button",
             "result": {
               "status": "passed",
-              "duration": 399000000
+              "duration": 246000000
             }
           },
           {
@@ -353,7 +353,7 @@
             "name": "Element special symbols class - sc-3f0fa74c-5 dlOEFS",
             "result": {
               "status": "passed",
-              "duration": 46000000
+              "duration": 108000000
             }
           }
         ]
@@ -373,7 +373,7 @@
             "name": "Enter \"test1234@gmail.com\" in the \"email\" field",
             "result": {
               "status": "passed",
-              "duration": 10813000000
+              "duration": 10249000000
             }
           },
           {
@@ -383,7 +383,7 @@
             "name": "Enter \"Test Test\" in the \"Full name\" field",
             "result": {
               "status": "passed",
-              "duration": 611000000
+              "duration": 544000000
             }
           },
           {
@@ -393,7 +393,7 @@
             "name": "Enter \"testtesttest1@\" in the \"password\" field",
             "result": {
               "status": "passed",
-              "duration": 1049000000
+              "duration": 934000000
             }
           },
           {
@@ -403,7 +403,7 @@
             "name": "Click checkbox \"i agree\"",
             "result": {
               "status": "passed",
-              "duration": 172000000
+              "duration": 175000000
             }
           },
           {
@@ -413,7 +413,7 @@
             "name": "Click \"Create Account\" button",
             "result": {
               "status": "passed",
-              "duration": 340000000
+              "duration": 295000000
             }
           },
           {
@@ -423,7 +423,7 @@
             "name": "Element upper-case class - sc-3f0fa74c-5 dlOEFS",
             "result": {
               "status": "passed",
-              "duration": 106000000
+              "duration": 54000000
             }
           }
         ]
@@ -443,7 +443,7 @@
             "name": "Enter \"test1234@gmail.com\" in the \"email\" field",
             "result": {
               "status": "passed",
-              "duration": 13307000000
+              "duration": 12028000000
             }
           },
           {
@@ -453,7 +453,7 @@
             "name": "Enter \"Test Test\" in the \"Full name\" field",
             "result": {
               "status": "passed",
-              "duration": 715000000
+              "duration": 478000000
             }
           },
           {
@@ -463,7 +463,7 @@
             "name": "Enter \"Testtesttest1@\" in the \"password\" field",
             "result": {
               "status": "passed",
-              "duration": 732000000
+              "duration": 728000000
             }
           },
           {
@@ -473,7 +473,7 @@
             "name": "Click \"Create Account\" button",
             "result": {
               "status": "passed",
-              "duration": 339000000
+              "duration": 286000000
             }
           },
           {
@@ -483,7 +483,7 @@
             "name": "\"The Please accept the terms and conditions.\" appeared.",
             "result": {
               "status": "passed",
-              "duration": 48000000
+              "duration": 56000000
             }
           }
         ]
@@ -503,7 +503,7 @@
             "name": "Enter \"test 1234@gmail.com\" in the \"email\" field",
             "result": {
               "status": "passed",
-              "duration": 15886000000
+              "duration": 12073000000
             }
           },
           {
@@ -513,7 +513,7 @@
             "name": "Enter \"Test Test\" in the \"Full name\" field",
             "result": {
               "status": "passed",
-              "duration": 1415000000
+              "duration": 682000000
             }
           },
           {
@@ -523,7 +523,7 @@
             "name": "Enter \"Testtesttest1@\" in the \"password\" field",
             "result": {
               "status": "passed",
-              "duration": 794000000
+              "duration": 700000000
             }
           },
           {
@@ -533,7 +533,7 @@
             "name": "Click checkbox \"i agree\"",
             "result": {
               "status": "passed",
-              "duration": 301000000
+              "duration": 131000000
             }
           },
           {
@@ -543,7 +543,7 @@
             "name": "Click \"Create Account\" button",
             "result": {
               "status": "passed",
-              "duration": 650000000
+              "duration": 317000000
             }
           },
           {
@@ -573,7 +573,7 @@
             "name": "Enter \"test1234@@gmail.com\" in the \"email\" field",
             "result": {
               "status": "passed",
-              "duration": 14810000000
+              "duration": 9454000000
             }
           },
           {
@@ -583,7 +583,7 @@
             "name": "Enter \"Test Test\" in the \"Full name\" field",
             "result": {
               "status": "passed",
-              "duration": 937000000
+              "duration": 622000000
             }
           },
           {
@@ -593,7 +593,7 @@
             "name": "Enter \"Testtesttest1@\" in the \"password\" field",
             "result": {
               "status": "passed",
-              "duration": 765000000
+              "duration": 874000000
             }
           },
           {
@@ -603,7 +603,7 @@
             "name": "Click checkbox \"i agree\"",
             "result": {
               "status": "passed",
-              "duration": 235000000
+              "duration": 266000000
             }
           },
           {
@@ -613,7 +613,7 @@
             "name": "Click \"Create Account\" button",
             "result": {
               "status": "passed",
-              "duration": 303000000
+              "duration": 355000000
             }
           },
           {
@@ -623,7 +623,7 @@
             "name": "The hint \"Please enter a valid email address\" appeared",
             "result": {
               "status": "passed",
-              "duration": 92000000
+              "duration": 81000000
             }
           }
         ]
@@ -643,7 +643,7 @@
             "name": "Enter \"test1234gmail.com\" in the \"email\" field",
             "result": {
               "status": "passed",
-              "duration": 14129000000
+              "duration": 10808000000
             }
           },
           {
@@ -653,7 +653,7 @@
             "name": "Enter \"Test Test\" in the \"Full name\" field",
             "result": {
               "status": "passed",
-              "duration": 1223000000
+              "duration": 1208000000
             }
           },
           {
@@ -663,7 +663,7 @@
             "name": "Enter \"Testtesttest1@\" in the \"password\" field",
             "result": {
               "status": "passed",
-              "duration": 1175000000
+              "duration": 903000000
             }
           },
           {
@@ -673,7 +673,7 @@
             "name": "Click checkbox \"i agree\"",
             "result": {
               "status": "passed",
-              "duration": 316000000
+              "duration": 271000000
             }
           },
           {
@@ -683,7 +683,7 @@
             "name": "Click \"Create Account\" button",
             "result": {
               "status": "passed",
-              "duration": 357000000
+              "duration": 307000000
             }
           },
           {
@@ -693,7 +693,7 @@
             "name": "The hint \"Please enter a valid email address\" appeared",
             "result": {
               "status": "passed",
-              "duration": 105000000
+              "duration": 82000000
             }
           }
         ]
@@ -713,7 +713,7 @@
             "name": "Enter \"test1234@gmailcom\" in the \"email\" field",
             "result": {
               "status": "passed",
-              "duration": 15610000000
+              "duration": 16922000000
             }
           },
           {
@@ -723,7 +723,7 @@
             "name": "Enter \"Test Test\" in the \"Full name\" field",
             "result": {
               "status": "passed",
-              "duration": 641000000
+              "duration": 1131000000
             }
           },
           {
@@ -733,7 +733,7 @@
             "name": "Enter \"Testtesttest1@\" in the \"password\" field",
             "result": {
               "status": "passed",
-              "duration": 775000000
+              "duration": 1237000000
             }
           },
           {
@@ -743,7 +743,7 @@
             "name": "Click checkbox \"i agree\"",
             "result": {
               "status": "passed",
-              "duration": 193000000
+              "duration": 325000000
             }
           },
           {
@@ -753,7 +753,7 @@
             "name": "Click \"Create Account\" button",
             "result": {
               "status": "passed",
-              "duration": 373000000
+              "duration": 1309000000
             }
           },
           {
@@ -763,7 +763,7 @@
             "name": "The hint \"Please enter a valid email address\" appeared",
             "result": {
               "status": "passed",
-              "duration": 94000000
+              "duration": 135000000
             }
           }
         ]
@@ -783,7 +783,7 @@
             "name": "Enter \"test1234.@gmail.com\" in the \"email\" field",
             "result": {
               "status": "passed",
-              "duration": 13783000000
+              "duration": 13804000000
             }
           },
           {
@@ -793,7 +793,7 @@
             "name": "Enter \"Test Test\" in the \"Full name\" field",
             "result": {
               "status": "passed",
-              "duration": 907000000
+              "duration": 1175000000
             }
           },
           {
@@ -803,7 +803,7 @@
             "name": "Enter \"Testtesttest1@\" in the \"password\" field",
             "result": {
               "status": "passed",
-              "duration": 1040000000
+              "duration": 775000000
             }
           },
           {
@@ -813,7 +813,7 @@
             "name": "Click checkbox \"i agree\"",
             "result": {
               "status": "passed",
-              "duration": 388000000
+              "duration": 228000000
             }
           },
           {
@@ -823,7 +823,7 @@
             "name": "Click \"Create Account\" button",
             "result": {
               "status": "passed",
-              "duration": 366000000
+              "duration": 483000000
             }
           },
           {
@@ -833,7 +833,7 @@
             "name": "The hint \"Please enter a valid email address\" appeared",
             "result": {
               "status": "passed",
-              "duration": 91000000
+              "duration": 103000000
             }
           }
         ]
@@ -853,7 +853,7 @@
             "name": "\"Have a promo?\" button is enebled",
             "result": {
               "status": "passed",
-              "duration": 11144000000
+              "duration": 8397000000
             }
           }
         ]
@@ -873,7 +873,7 @@
             "name": "\"sign up with google\" button is enebled",
             "result": {
               "status": "passed",
-              "duration": 8027000000
+              "duration": 9271000000
             }
           }
         ]
@@ -893,7 +893,7 @@
             "name": "\"sign up with microsoft\" button is enebled",
             "result": {
               "status": "passed",
-              "duration": 7457000000
+              "duration": 7209000000
             }
           }
         ]
@@ -913,7 +913,7 @@
             "name": "click \"telnyx\" logo",
             "result": {
               "status": "passed",
-              "duration": 13490000000
+              "duration": 8554000000
             }
           },
           {
@@ -923,7 +923,7 @@
             "name": "wait",
             "result": {
               "status": "passed",
-              "duration": 2869000000
+              "duration": 3473000000
             }
           },
           {
@@ -933,7 +933,7 @@
             "name": "open main page",
             "result": {
               "status": "passed",
-              "duration": 28000000
+              "duration": 32000000
             }
           }
         ]
@@ -953,7 +953,7 @@
             "name": "click \"sign in\" button",
             "result": {
               "status": "passed",
-              "duration": 17648000000
+              "duration": 12185000000
             }
           },
           {
@@ -963,7 +963,7 @@
             "name": "wait",
             "result": {
               "status": "passed",
-              "duration": 2725000000
+              "duration": 2015000000
             }
           },
           {
@@ -993,7 +993,7 @@
             "name": "click \"Terms and Conditions\" button",
             "result": {
               "status": "passed",
-              "duration": 12451000000
+              "duration": 11125000000
             }
           },
           {
@@ -1003,7 +1003,7 @@
             "name": "wait",
             "result": {
               "status": "passed",
-              "duration": 2517000000
+              "duration": 2171000000
             }
           },
           {
@@ -1033,7 +1033,7 @@
             "name": "click \"JOIN THE WAITLIST.\" button",
             "result": {
               "status": "passed",
-              "duration": 10273000000
+              "duration": 16625000000
             }
           },
           {
@@ -1043,7 +1043,7 @@
             "name": "wait",
             "result": {
               "status": "passed",
-              "duration": 2453000000
+              "duration": 3473000000
             }
           },
           {
@@ -1053,7 +1053,7 @@
             "name": "open product page",
             "result": {
               "status": "passed",
-              "duration": 16000000
+              "duration": 50000000
             }
           }
         ]
@@ -1073,7 +1073,7 @@
             "name": "click \"Privacy Policy\" button",
             "result": {
               "status": "passed",
-              "duration": 11224000000
+              "duration": 15303000000
             }
           },
           {
@@ -1083,7 +1083,7 @@
             "name": "wait",
             "result": {
               "status": "passed",
-              "duration": 2143000000
+              "duration": 2711000000
             }
           },
           {
