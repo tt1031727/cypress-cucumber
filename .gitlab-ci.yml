@@ -1,0 +1,27 @@
+stages: 
+  - testing 
+  - deploy  
+ 
+job: 
+  stage: testing 
+    
+  image: atools/chrome-headless:java11-node14-latest  
+   
+  script: 
+    - npm run test  
+  after_script: 
+    - npm generateReport 
+  allow_failure: true 
+  artifacts:  
+    when: always 
+    paths: 
+      - ./index.html
+    expire_in: 1 day  
+pages:  
+  stage: deploy 
+    
+  artifacts: 
+    paths: 
+      - public 
+  rules: 
+    - when: always
