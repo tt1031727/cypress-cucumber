@@ -9,7 +9,7 @@ jobs:
         runs-on: ubuntu-20.04
         strategy:
             matrix:
-                node-version: [18.4.0]
+                node-version: [14.17.0]
 
         steps:
             - uses: actions/checkout@v2
@@ -20,6 +20,7 @@ jobs:
                   cache: "npm"
             - run: npm i npm@latest
             - run: npm i
+            - run: npm i cypress
             - name: run test
               run: npm run runOnChrome
       
