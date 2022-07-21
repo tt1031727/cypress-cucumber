@@ -14,12 +14,11 @@ test:
      - npm ci
      - npx install cypress
   script:
-    - npx cypress run --browser chrome
-  after_script:
-    - npm generateReport
-pages:  
+    - npx cypress run --browser chrome  
+pages:
   stage: deploy 
-
+  script:
+    - npm generateReport
   artifacts:
     when: always
     paths:
