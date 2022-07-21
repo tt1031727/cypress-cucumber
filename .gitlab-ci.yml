@@ -3,9 +3,6 @@ stages:
   - deploy  
  
 job: 
-  stage: testing 
-    
-  image: atools/chrome-headless:java11-node14-latest  
    
   script: 
     - npm run test  
