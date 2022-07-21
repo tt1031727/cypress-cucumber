@@ -2,7 +2,7 @@ Feature: Sign up page
 
     automation tc for sign up page
 
-    Scenario: Close koocie window
+    Scenario: Close cookie window
         Then click close button
 
 
