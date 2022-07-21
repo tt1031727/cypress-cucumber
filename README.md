@@ -10,7 +10,9 @@ install:
 2. $ npm install @badeball/cypress-cucumber-preprocessor
 
 run test:
+
 1.for open cypress use script - npm run test
+
 2.for run headless test use script  -npm runOnChrome
 
 
