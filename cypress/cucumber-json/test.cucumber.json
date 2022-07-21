@@ -1,0 +1,74 @@
+[
+  {
+    "description": "    automation tc for sign up page",
+    "keyword": "Feature",
+    "name": "Sign up page",
+    "line": 1,
+    "id": "sign-up-page",
+    "tags": [],
+    "uri": "test.feature",
+    "elements": [
+      {
+        "id": "sign-up-page;checking-that-the-hint-\"this-field-is-required.\"-appears-if-you-leave-the-\"email\"-field-empty.",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Checking that the hint \"This field is required.\" appears if you leave the \"email\" field empty.",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "Enter \"Test Test\" in the \"Full name\" field",
+            "result": {
+              "status": "passed",
+              "duration": 31297000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "Enter \"Test123test@\" in the \"password\" field",
+            "result": {
+              "status": "passed",
+              "duration": 1074000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "Click checkbox \"i agree\"",
+            "result": {
+              "status": "passed",
+              "duration": 301000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "Click \"Create Account\" button",
+            "result": {
+              "status": "passed",
+              "duration": 464000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "The hint email \"This field is required.\" appeared",
+            "result": {
+              "status": "failed",
+              "duration": 50906000000,
+              "error_message": "AssertionError: Timed out retrying after 6000ms: Expected to find element: `[class*=\"Times_svg__sc-11c4rjx-5 Times_svg__dLeEUR\"]`, but never found it.\n\nBecause this error occurred during a `before each` hook we are skipping the remaining tests in the current suite: `Sign up page`\n    at Context.eval (https://telnyx.com/__cypress/tests?p=cypress\\e2e\\test.feature:45:6)"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
