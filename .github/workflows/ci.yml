@@ -6,7 +6,7 @@ on:
 
 jobs:
     Run_test:
-        runs-on: windows-latest
+        runs-on: ubuntu-20.04
         strategy:
             matrix:
                 node-version: [14.17.0]
@@ -21,6 +21,6 @@ jobs:
             - run: npm i npm@latest
             - run: npm i
             - name: run test
-            - run: npm run runOnChrome
+              run: npm run runOnchrome
       
                 
