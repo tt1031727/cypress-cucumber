@@ -2,6 +2,11 @@ Feature: Sign up page
 
     automation tc for sign up page
 
+    Scenario: Close koocie window
+        Then click close button
+
+
+
     Scenario: Checking that the hint "This field is required." appears if you leave the "email" field empty.
         When Enter "Test Test" in the "Full name" field
         And Enter "Test123test@" in the "password" field

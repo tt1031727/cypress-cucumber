@@ -5,6 +5,10 @@ beforeEach(() => {
     cy.visit('https://telnyx.com/sign-up')
 })
 
+Then('click close button', () => {
+    cy.get('[class*="UR"]').click()
+})
+
 When('Enter "Test Test" in the "Full name" field', ()  => {
     signUpPage.fullNameField().type('Test Test')
 })
