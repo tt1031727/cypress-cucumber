@@ -21,6 +21,6 @@ jobs:
             - run: npm i npm@latest
             - run: npm i
             - name: run test
-              run: npm run runOnchrome
+              run: npm run runOnChrome
       
                 
