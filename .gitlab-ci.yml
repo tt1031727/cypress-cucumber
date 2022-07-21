@@ -17,7 +17,7 @@ test:
     - npm run start:ci &
     # run Cypress tests
     - npx cypress run --browser chrome
-     npm generateReport
+    - npm generateReport
 
   artifacts:
     when: always
