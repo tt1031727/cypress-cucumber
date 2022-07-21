@@ -21,7 +21,7 @@ jobs:
             - run: npm i npm@latest
             - run: npm i
             - run: npm install cypress 
-            - run: npm i cypress-cucumber-preprocessor
+            - run: npm install @badeball/cypress-cucumber-preprocesso
             - name: run test
               run: npm run runOnChrome
       
