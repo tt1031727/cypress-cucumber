@@ -1,5 +1,6 @@
 stages:
   - test
+  - deploy
 
 cache:
   key: ${CI_COMMIT_REF_SLUG}
@@ -9,21 +10,21 @@ cache:
 
 test:
   stage: test
+  before_script:
+     - npm ci
+     - npx install cypress
   script:
-    
-    # install dependencies
-    - npm ci
-    # start the server in the background
-    - npm run start:ci &
-    # run Cypress tests
-    - npm install cypress
     - npx cypress run --browser chrome
+  after_script:
     - npm generateReport
+  allow_failure: true
+pages:  
+  stage: deploy 
 
   artifacts:
     when: always
     paths:
       - cypress/videos/**/*.mp4
       - cypress/screenshots/**/*.png
-      - cypress-cucumber\reports\cucumber-htmlreport.html\index.html
+      - ./reports/cucumber-htmlreport.html/index.html
     expire_in: 1 day
