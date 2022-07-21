@@ -17,7 +17,7 @@ test:
     - npx cypress run --browser chrome
   after_script:
     - npm generateReport
-  allow_failure: true
+
 pages:  
   stage: deploy 
 
