@@ -1,10 +1,11 @@
 This test project for demonstration my skils for my mentor
+
 This README created becouse my mentor say "create README"
 
 
 Instruction
 
-Instal
+install
 1. npm install cypress
 2. $ npm install @badeball/cypress-cucumber-preprocessor
 
