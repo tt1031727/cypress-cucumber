@@ -17,10 +17,11 @@ jobs:
               uses: actions/setup-node@v2
               with:
                   node-version: ${{ matrix.node-version }}
-                  cache: "npm"
-            - run: npm install cypress    
+                  cache: "npm"   
             - run: npm i npm@latest
             - run: npm i
+            - run: npm install cypress 
+            - run: npm i cypress-cucumber-preprocessor
             - name: run test
               run: npm run runOnChrome
       
