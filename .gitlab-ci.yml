@@ -11,7 +11,7 @@ cache:
 test:
   stage: test
   before_script:
-     - npm ci
+     - npx ci
      - npx install cypress
   script:
     - npx cypress run --browser chrome  
